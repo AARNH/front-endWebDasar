@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ind">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="asset/style.css">
+    <title>Halim Group</title>
+</head>
+<body>
+    <header>
+        <nav class="navigasi">
+            <!--logo-->
+            <div class="leftnav">
+                <a href=""><img src="asset/H.svg" alt="logo" class="logo"></a>
+            </div>
+            <!--menu-->
+            <ul>
+                <li><a href="#yayasan.html" id="yayasan">Yayasan</a></li>
+                <li><a href="#travel.html" id="travel">Travel</a></li>
+                <li><a href="#bangunan.html" id="bangunan">Bangunan</a></li>
+                <li><a href="#herbal.html" id="herbal">Herbal</a></li>
+            </ul>
+            <div class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="carousel">
+                <div class="slider">
+                    <!--radio image slide-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!--slide image-->
+                    <div class="slide firts">
+                        <img alt="Cover" src="asset/yayasan.jpg"/>
+                    </div>
+                    <div class="slide ">
+                        <img alt="Cover" src="asset/travel.jpg"/>
+                    </div>
+                    <div class="slide">
+                        <img alt="Cover" src="asset/bangunan.jpg"/>
+                    </div>
+                    <div class="slide">
+                        <img alt="Cover" src="asset/herbal.jpg"/>
+                    </div>
+                    <!--auto slide-->
+                    <div class="auto-slide">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                </div>
+                 <!--manual slide-->
+                 <div class="manual-slide">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+        </section>  
+        <div id="content">
+            <article id="profile" class="card"> 
+                <h1 class='title'>Halim Group</h1>  
+                <div class="deskripsi">
+                    Halim Group merupakan sebuah UMKM asal Jember Jawa Timur yang didirikan oleh sebuah keluar.
+                    Ada 4 bidang dinaungi oleh Halim Group saat ini yaitu <em>Yayasan, Travel, Material Bangunan, dan Obat Herbal.</em>
+                    Yayasan saat ini yang dinaungi oleh Halim Group berupa Paud dan RA Ulul dan SDI Ulul Albab.
+                    Travel yang dinaungi oleh Halim Group merupakan perusahaan yang memiliki hak mencetak visa, sehingga mempermudah dalam pengurusan visa.
+                    Material Banguna, Halim Group juga memiliki toko bangunan yang terletak di Jember.
+                    Obat herbal, selain itu Halim Group juga menyediakan berbagai obat herbal dan juga bisa melakukan konsultasi secara gratis.
+                </div>
+            </article>
+            <article class="information card">
+                <h3 class="title-info"> Information</h3>
+                    Website ini merupakan dashboard untuk mengerahkan
+                    para customer ke layanan yang disediakan Halim Group
+                <ul>
+                    <li>Yayasan, mengakses website RA / SDI Ulul Albab</li>
+                    <li>Travel, mengakses website layanan Travel Halim</li>
+                    <li>Bangunan, mengakses website Material Bangunan Halim</li>
+                    <li>Herbal, mengakses website Obat Herbal</li>
+                </ul>    
+            </article>
+        </div>
+        <aside>
+            <div class="inner-footer">
+                <div class="dev-profile">
+                    <img class='dev' src="asset/profile.jpg">
+                    <p>Achmad Aqrom Roid Naufil Hais</p>
+                    <p>Developer Website</p>
+                </div>
+                <div class="contact">
+                    <h3 class="title-innerfooter">Feedback</h3>
+                    <li>081 234 518 619 (Halik)</li>
+                    <li>082 338 454 944 (Iis)</li>
+                    <li>082 131 902 123 (Naufal)</li>
+                    <li>083 125 246 290 (Aqrom)</li>
+                </div>
+                <div class="langganan">
+                    <h3 class="title-innerfooter">Berlangganan</h3>
+                    <li><input type="text" class="text-box" placeholder="E-mail"></li>
+                    <li><button class="btn-subscribe">Subsribe</button></li>
+                </div>
+            </div>
+        </aside>
+        <footer>
+            <p>Perumahan Bumi Mangli Permai Blok B4 Kec.Kaliwates, Kab.Jember, Jawa Timur Kode Pos 68136</p>
+            <p>Halim Group &#169; 2000</p>
+        </footer>   
+    </main>       
+</body>
+<script src="asset/script.js"></script>
+<script src="asset/_init.js"></script>
+</html>
